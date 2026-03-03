@@ -28,11 +28,11 @@ const SlugSeiPage = () => {
   const [inputMessage, setInputMessage] = useState('');
   const [isUploading, setIsUploading] = useState(false);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
-  const [isLoading, setIsLoading] = useState({
-    upload: false,
-    analysis: false,
-    feedback: false
-  });
+  // const [isLoading, setIsLoading] = useState({
+  //   upload: false,
+  //   analysis: false,
+  //   feedback: false
+  // });
   const [referenceVideo, setReferenceVideo] = useState(null);
 
   const handleVideoUpload = async (e) => {
